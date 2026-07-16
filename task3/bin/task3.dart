@@ -1,6 +1,6 @@
 class BankAccount {
-  String ownerName;
-  double balance;
+  String? ownerName;
+  double? balance;
 
   BankAccount(this.ownerName, this.balance);
 
