@@ -1,6 +1,6 @@
 class Rectangle {
-  double width;
-  double height;
+  double? width;
+  double? height;
 
   Rectangle(this.width, this.height);
 
