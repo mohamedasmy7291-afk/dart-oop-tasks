@@ -10,7 +10,6 @@ class Rectangle extends Shape {
 
   Rectangle(this.width, this.height);
 
-  @override
   double calculateArea() {
     return width * height;
   }
@@ -21,7 +20,6 @@ class Circle extends Shape {
 
   Circle(this.radius);
 
-  @override
   double calculateArea() {
     return 3.14 * radius * radius;
   }
