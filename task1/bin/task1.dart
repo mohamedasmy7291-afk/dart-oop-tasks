@@ -13,7 +13,7 @@ class Student {
 }
 
 void main() {
-  Student student = Student("Mohamed", 17, "A");
+  Student student = Student("ali", 17, "A");
 
   student.displayInfo();
 }
